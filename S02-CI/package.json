@@ -1,10 +1,9 @@
 {
-  "name": "s02-ci",
+  "name": "s02-ci-s16-handover-confirmation",
   "version": "1.0.0",
+  "description": "S-16 - Bên nhận xác nhận hoặc từ chối bàn giao kèm lý do",
+  "main": "src/calculator.js",
   "scripts": {
-    "test": "jest --runInBand"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0"
+    "test": "node test/calculator.test.js"
   }
 }

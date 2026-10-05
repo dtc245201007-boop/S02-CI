@@ -1,0 +1,12 @@
+{
+  "name": "thuc-hanh-sass",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sass": "sass scss/main.scss css/main.css",
+    "sass:watch": "sass --watch scss/main.scss:css/main.css"
+  },
+  "devDependencies": {
+    "sass": "^1.93.2"
+  }
+}
